@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@1,700&display=swap');
+
+body{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+box-sizing: border-box;
+margin: 0;
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.box{
+    box-sizing: border-box;
+}
+
+.greycolor{
+    color: grey;
+}
+
+.emojisize{
+    font-size: 33px;
+}
+
+.marginbottom{
+    margin-bottom: -1px ;
+}
+
+.margintop{
+    margin-top: 4px ;
+}
+
+.margintopp{
+    margin-top: -18px ;
+}
+
+
+.text-align-left{
+    text-align: left;
+}
+
+.marginright{
+    text-align: right;
+    
+}
+
+.marginleft{
+    text-align: left;
+    
+}
+
+.dropdown{
+    margin-top: -16px;
+    color: grey;
+}
+
+
+/* main page */
+.bgcolorformainpage{
+    background-color: rgb(188, 187, 187);
+    width: 800px;
+    margin: 0px auto;
+    padding: 1px 0px 1px 0px;
+}
+
+.card_border{
+    width: 50%;
+    border: 2px solid rgb(215, 206, 206);
+    border-radius: 10px;
+    margin: 50px auto;
+    font-size: 32px;
+    padding: 30px 20px 30px 20px;
+}
+/* main page */
+
+
+
+
+/* card 1 */
+.card1-bgcolor{
+    background-color: rgb(215, 206, 206);
+    width: 800px;
+    margin: 0px auto;
+    padding: 1px 0px 1px 0px;
+}
+
+.card1-border-details{
+    border: 1px solid cadetblue;
+    width: 350px;
+    border-radius: 10px;
+    margin: 50px auto;
+    /* padding: 30px 20px 30px 20px; */ 
+    /* FYI: don't use padding here, bcoz the whole card inside padding happens so, main page will not complete  */
+    background-color: white; 
+    box-sizing: border-box; 
+}
+
+.card1-Second-border-details{
+    border-top: 1px solid cadetblue;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 10px;
+}
+
+.work-card1{
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(240, 232, 222);
+    border: none;
+    padding: 10px;
+}
+
+.personal-card1{
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card1-inisde-text-padding{
+    padding: 20px;
+}
+/* card 1 */
+
+
+
+
+/* card2 */
+.card2-number{ 
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgb(185, 130, 245);
+    box-shadow: 0px 0px 0px 2px rgb(210, 206, 241) ;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card2-continue{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(27, 5, 192);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font: 700;
+    color: white; 
+}
+
+.card2-emailcheckimage{
+    width: 250px;
+    height: 250px;
+    margin-bottom: -30px ;
+}
+/* card2 */
+
+
+
+/* card3 */
+.card3-para-size{
+ font-size: 12px;
+ color: grey;
+}
+/* card3 */
+
+
+
+/* card4 */
+.card4-marginleft{
+    text-align: left;
+    margin-bottom: -4px;
+    color: rgb(185, 130, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.card4-marginleftgreycolor{
+    text-align: left;
+    margin-bottom: -4px;
+    color: rgb(204, 188, 188);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+
+.card4-bordercolor{ 
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgb(217, 212, 212);
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* card4 */
+
+
+/* card5 */
+.card5-border{
+    border: none;
+    
+
+}
+
+/* card5 */
