@@ -129,6 +129,14 @@ p{
     margin-bottom: 10px;
 }
 
+.work-card1:hover{
+    background-color:rgb(179, 37, 37);
+  }
+
+  .personal-card1:hover{
+    background-color:rgb(179, 37, 37);
+  }
+
 .card1-inisde-text-padding{
     padding: 20px;
 }
@@ -147,6 +155,10 @@ p{
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.card2-number:hover{
+    background-color: rgb(226, 189, 227);
 }
 .card2-continue{
     width: 100%;
@@ -211,8 +223,25 @@ p{
 /* card5 */
 .card5-border{
     border: none;
-    
+}
 
+.card5-number{ 
+    width: 100%;
+    /* text-align: left; */
+    padding: 16px 16px 16px 45px;
+    border: 2px solid rgb(185, 130, 245);
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 2px rgb(210, 206, 241) ;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(card.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 10px;
+    caret-color: rgb(135, 222, 36);
+    font-size: 15px;
+    font-weight: 450;
 }
 
 /* card5 */

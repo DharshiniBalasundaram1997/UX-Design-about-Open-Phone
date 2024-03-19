@@ -15,22 +15,34 @@
                 <p class="greycolor">Tell us about your company. You will be able to invite your teamates in the next step.</p>
 
                 <h4 class="card4-marginleft">Company name</h4>
-                <button class="card2-number text-align-left">Zest</button><br>
-
+                <form action="">
+                    <input type="text" class="card2-number text-align-left box" required minlength="3">
+               
                 <h4 class="card4-marginleftgreycolor">Industry (optional)</h4>
-                <button class="card4-bordercolor text-align-left">&#127912;Creative agency  
-                    <div class="dropdown marginright">&#9013;</div>
-                </button><br>
+                <select name="Industry (optional)" class="card4-bordercolor text-align-left">
+                    <option name="Industry (optional)" value="Creative agency">🎨Creative agency</option>
+                    <option name="Industry (optional)" value="IT & Serrvices"> 🏢 IT & Serrvices</option>
+                    <option name="Industry (optional)" value="Ad Agency">🗂️Ad Agency</option>
+                </select>
 
                 <h4 class="card4-marginleftgreycolor">Your role (optional)</h4>
-                <button class="card4-bordercolor text-align-left">&#127919;Owner / Founder / CEO
-                    <div class="dropdown marginright">&#9013;</div>
-                </button><br>
+                <select name="Your role" class="card4-bordercolor text-align-left">
+                    <option name="Your role" value="Owner / Founder / CEO">Owner / Founder / CEO</option>
+                    <option name="Your role" value="Engineer">Engineer</option>
+                    <option name="Your role" value="Marketing">Marketing</option>
+                </select>
 
-                <h4 class="card4-marginleftgreycolor">Comapny size (optional)</h4>
-                <button class="card4-bordercolor text-align-left">2 - 10
-                    <div class="dropdown marginright">&#9013;</div>
-                </button><br>
+                <h4 class="card4-marginleftgreycolor">Company size (optional)</h4>
+                <select name="Company size" class="card4-bordercolor text-align-left">
+                    <option name="Company size" value="Owner / Founder / CEO">1</option>
+                    <option name="Company size" value="Engineer">2-10</option>
+                    <option name="Company size" value="Marketing">More than 50</option>
+                </select>
+
+                
+                <button type="submit" class="card2-continue" required>Continue</button>
+                </form>
+                
             </div>
             <div class="card1-Second-border-details">
                 <a href="index.html">MainPage</a>                          
